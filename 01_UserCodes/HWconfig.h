@@ -1,0 +1,22 @@
+#ifndef __HW_CONFIG
+#define __HW_CONFIG
+
+//#define DBUG 1
+#define DBUG_HUART huart2
+
+#define TIMEOUT_MOVE_L (10000UL)
+#define TIMEOUT_MOVE_R (10000UL)
+
+#define SCALE_STEP_L (1.0f)
+#define SCALE_STEP_R (1.2f)
+
+#define SWICH_CLOSE_PIN_STATE  GPIO_PIN_RESET
+
+#define DRIVER_ON_STATE  GPIO_PIN_SET
+#define DRIVER_OFF_STATE  GPIO_PIN_RESET
+
+#define CONTACT_BOUNCE_MSEC (50)
+
+#define DEPARTURE_TIME_MSEC (3000)
+
+#endif
